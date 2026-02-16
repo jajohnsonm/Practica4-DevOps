@@ -20,6 +20,5 @@ jobs:
         run: |
           curl -H "Title: Nuevo Push en main. By: J.A. Johnson M." \
                -H "Priority: 5" \
-               -H "Tags: warning,devops" \
                -d "Se ha realizado un nuevo push a la rama main en el repositorio ${{ github.repository }}" \
                https://ntfy.sh/devops-itla
